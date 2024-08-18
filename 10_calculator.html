@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator-final</title>
+        <link rel="stylesheet" href="css/10_calculator.css">
+    </head>
+    <body>
+
+        <p id="display"></p>
+
+        <p>
+            <button onclick="addOne(1)">1</button>
+            <button onclick="addOne(2)">2</button>
+            <button onclick="addOne(3)">3</button>
+            <button style="background-color: orange;" onclick="addOne(' + ')">+</button>
+            
+        </p>
+        <p>
+            <button onclick="addOne(4)">4</button>
+            <button onclick="addOne(5)">5</button>
+            <button onclick="addOne(6)">6</button>
+            <button style="background-color: orange;" onclick="addOne(' - ')">-</button>
+            
+             
+        </p>
+        <p>
+            <button onclick="addOne(7)">7</button>
+            <button onclick="addOne(8)">8</button>
+            <button onclick="addOne(9)">9</button>
+            <button style="background-color: orange;" onclick="addOne(' * ')">*</button>
+        </p>
+
+        <p>
+            <button onclick="addOne(0)">0</button>
+            <button onclick="addOne('.')">.</button>
+            <button onclick="equal()">=</button>
+            <button style="background-color: orange;" onclick="addOne(' / ')">/</button>
+        </p>
+        <p>
+            <button onclick="clearCalc()">clear</button>
+        </p>
+
+        <script src="scripts/10_calculator.js"></script>
+        
+        
+    </body>
+</html>
